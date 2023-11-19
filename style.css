@@ -50,15 +50,17 @@ html {
     background-color: #020659;
 }
 
-body, main, footer, nav, header{
-    width: 375px;
-}
-
 body {
     width: 375px;
     margin: 0 auto;
     background-color: #ffffff;
     display: grid;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+}
+
+main{
+    width: 375px;
 }
 
 header{
@@ -66,9 +68,11 @@ header{
     background: linear-gradient(90deg, rgba(33,4,217,1) 0%, rgba(2,6,89,1) 33%, rgba(2,6,89,1) 66%, rgba(0,0,0,1) 100%);
     grid-row-start: 2;
     grid-row-end: 3;
+    width: 375px;
 }
 
 nav{
+    width: 375px;
     background-color: #030A8C;
     position: relative;
     grid-row-start: 1;
@@ -103,6 +107,10 @@ li a{
    
 }
 
+footer{
+width: 375px;
+}
+
 a:hover{
     background: #590242;
 }
@@ -129,9 +137,9 @@ input:hover{
 label {
     cursor: pointer;
     display: inline-block;
-    padding: 28px 20px;
+    padding: 25px 20px;
     position: relative;
-    user-select: none;
+   ;
 }
 label span {
     background-color: #ffffff;
@@ -141,21 +149,7 @@ label span {
     transition: background-color .2s ease-out;
     width: 18px;
 }
-label{
-    cursor: pointer;
-    position: relative;
-    user-select: none;
-    padding: 28px 20px;
-}
-label span{
-    background-color: #ffffff;
-    display: block;
-    height: 2px;
-    position: relative;
-    transition: background-color .2s ease-out;
-    width: 18px;
-    margin: 15px;
-}
+
 label span:before, label span:after {
     background: #ffffff;
     content: '';
@@ -303,11 +297,6 @@ audio::-webkit-media-controls-enclosure{
     padding: 10px;
 }
 
-
-body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #ffffff;
-}
 
 h1{
     font-size: 22px;
