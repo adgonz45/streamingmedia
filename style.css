@@ -320,7 +320,7 @@ h3{
 }
 
 header p, h1, h2{
-    padding: 0 32px 0 32px;
+    padding: 0 30px 0 30px;
 
 }
 header, p{
@@ -329,7 +329,7 @@ header, p{
 }
 
 #trending h2{
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 #trending h3, dt, dd{
@@ -343,11 +343,8 @@ dt{
     font-style: italic;
 }
 
-dd{
-    color: #590242;
-}
 
-p, dl, dd{
+p, dl{
     font-size: 1em;
 }
 
